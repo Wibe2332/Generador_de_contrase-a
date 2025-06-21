@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #e9ecef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  width: 350px;
+  max-width: 90%;
+  text-align: center;
+}
+
+.output {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.output input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.output button {
+  padding: 10px;
+  background: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.settings {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.settings label {
+  display: block;
+  margin: 5px 0;
+}
+
+#generate {
+  padding: 10px;
+  width: 100%;
+  background-color: #198754;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.strength {
+  margin-top: 15px;
+  text-align: left;
+}
+
+.bar {
+  height: 10px;
+  background: #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  transition: background 0.3s ease;
+}
